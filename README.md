@@ -17,7 +17,7 @@
 }`
 
 8. In the terminal make a component. Type: ng generate component cat-fact
-9. In app.component.html delete the boilerplate code and replace it with <app-cat-fact></app-cat-fact>
+9. In app.component.html delete the boilerplate code and replace it with `<app-cat-fact></app-cat-fact>`
 10. Fire up you app. In the terminal type: ng serve -o
 11. Make a cup of tea and wait patiently.
 12. Express mild amusement when your browser opens and the page says "cat-fact works!"

@@ -6,7 +6,7 @@
 6. Create a url property of type string, and assign in the Cat Fact API url: "https://cat-fact.herokuapp.com/facts"
 7. Write a getCatFact() function using the .get method of the HttpClient, and console.log the data for testing purposes. Start with:
 
-  getCatFact() {
+  `getCatFact() {
     return this.http.get(this.urlString).subscribe(
       (data) => {
         console.log(data);
@@ -14,7 +14,7 @@
       (error) => console.log(error)
     );
   }
-}
+}`
 
 8. In the terminal make a component. Type: ng generate component cat-fact
 9. In app.component.html delete the boilerplate code and replace it with <app-cat-fact></app-cat-fact>
@@ -29,7 +29,7 @@
 18. Inside the class, give it a public property of an array of your interface, and initialize it to an empty array.
 19. In the service, edit the getCatFact() function to loop over the data and push it onto the array. Type: forin and let VS Code create a loop for you. Edit the varible names so your function now looks something like:
 
-getCatFact() {
+`getCatFact() {
     return this.http.get(this.urlString).subscribe(
       (data) => {
         console.log(data);
@@ -42,7 +42,7 @@ getCatFact() {
       },
       (error) => console.log(error)
     );
-  }
+  }`
   
 20. Return to your cat-fact component html. Now you can loop over the array provided by your service:
 `<div *ngFor="let fact of catService.catFacts">{{fact.type | uppercase}}: {{fact.text}}</div>`

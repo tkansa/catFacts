@@ -3,7 +3,7 @@
 3. In app.module.ts import the HttpClientModule (slide 134)
 4. In the terminal create a service by typing: ng generate service cat
 5. In cat.service.ts import the HttpClient (slide 136) and inject it into the constructor
-6. Create a url property of type string, and assign in the Cat Fact API url: "https://cat-fact.herokuapp.com/facts"
+6. Create a url property of type string, and assign it the Cat Fact API url: "https://cat-fact.herokuapp.com/facts"
 7. Write a getCatFact() function using the .get method of the HttpClient, and console.log the data for testing purposes. Start with:
 
   `getCatFact() {

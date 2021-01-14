@@ -45,7 +45,7 @@ getCatFact() {
   }
   
 20. Return to your cat-fact component html. Now you can loop over the array provided by your service:
-<div *ngFor="let fact of catService.catFacts">{{fact.type | uppercase}}: {{fact.text}}</div>
+`<div *ngFor="let fact of catService.catFacts">{{fact.type | uppercase}}: {{fact.text}}</div>`
 
 BEHOLD!
 

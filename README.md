@@ -1,5 +1,5 @@
 1. Navigate to where you want to create your project in a terminal. Type: ng new cat-facts
-2. Once the project is created, cd into it, and open your code in VS Code
+2. Once the project is created, cd into it, and open your code in VS Code. Typing: code src in a terminal will launch the src files in VS Code
 3. In app.module.ts import the HttpClientModule (slide 134)
 4. In the terminal create a service by typing: ng generate service cat
 5. In cat.service.ts import the HttpClient (slide 136) and inject it into the constructor

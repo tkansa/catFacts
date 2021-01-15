@@ -22,7 +22,7 @@
 11. Make a cup of tea and wait patiently.
 12. Express mild amusement when your browser opens and the page says "cat-fact works!"
 13. In the cat-fact.component.ts import your service, and add it as a provider in your component, and add it to the constructor
-14. In onInit() call the getCatFact funtion of your catService
+14. In onInit() call the getCatFact function of your catService
 15. Save your project, go to the browser and open the developer console. You should see an array of objects, each of which contains a cat fact!
 16. Examine the structure of this array, and puzzle over how you can model your interface to match. And which data you want to capture.
 17. In the service, before the class, create an interface to hold your data (a cat fact). Your property names must match the names in the JSON (ie they called the cat fact 'text')
